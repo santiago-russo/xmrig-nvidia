@@ -21,11 +21,16 @@
  *   along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+#include <cstdio>
 #include "App.h"
 
 
 int main(int argc, char **argv) {
     App app(argc, argv);
 
-    return app.exec();
+	app.exec();
+
+	getchar();
+
+	return 0;
 }

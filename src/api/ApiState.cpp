@@ -52,7 +52,7 @@ extern "C"
 
 static inline double normalize(double d)
 {
-    if (!std::isnormal(d)) {
+	if (isnan(d) || d == 0) { //TODO: reemplazar isnormal por =0
         return 0.0;
     }
 

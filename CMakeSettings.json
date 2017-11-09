@@ -1,0 +1,49 @@
+{
+  // See https://go.microsoft.com//fwlink//?linkid=834763 for more information about this file.
+  "configurations": [
+    {
+      "buildCommandArgs": "-v",
+      "buildRoot": "${env.USERPROFILE}\\CMakeBuilds\\${workspaceHash}\\build\\${name}",
+      "cmakeCommandArgs": "-DUV_INCLUDE_DIR=C:\\\\Users\\\\srusso\\\\Downloads\\\\xmrig-deps-v2\\\\msvc2017\\\\libuv\\\\x86 -DUV_LIBRARY=C:\\Users\\srusso\\Downloads\\xmrig-deps-v2\\msvc2017\\libuv\\x86\\lib\\libuv.lib -DMHD_INCLUDE_DIR=C:\\\\Users\\\\srusso\\\\Downloads\\\\xmrig-deps-v2\\\\msvc2017\\\\libmicrohttpd\\\\x86 -DMHD_LIBRARY=C:\\Users\\srusso\\Downloads\\xmrig-deps-v2\\msvc2017\\libmicrohttpd\\x86\\lib\\libmicrohttpd.lib",
+      "configurationType": "Debug",
+      "ctestCommandArgs": "",
+      "generator": "Ninja",
+      "inheritEnvironments": [ "msvc_x86" ],
+      "installRoot": "${env.USERPROFILE}\\CMakeBuilds\\${workspaceHash}\\install\\${name}",
+      "name": "x86-Debug"
+    },
+    {
+      "name": "x86-Release",
+      "generator": "Ninja",
+      "configurationType": "RelWithDebInfo",
+      "inheritEnvironments": [ "msvc_x86" ],
+      "buildRoot": "${env.USERPROFILE}\\CMakeBuilds\\${workspaceHash}\\build\\${name}",
+      "installRoot": "${env.USERPROFILE}\\CMakeBuilds\\${workspaceHash}\\install\\${name}",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "-v",
+      "ctestCommandArgs": ""
+    },
+    {
+      "name": "x64-Debug",
+      "generator": "Ninja",
+      "configurationType": "Debug",
+      "inheritEnvironments": [ "msvc_x64" ],
+      "buildRoot": "${env.USERPROFILE}\\CMakeBuilds\\${workspaceHash}\\build\\${name}",
+      "installRoot": "${env.USERPROFILE}\\CMakeBuilds\\${workspaceHash}\\install\\${name}",
+      "cmakeCommandArgs": "-DUV_INCLUDE_DIR=C:\\\\Users\\\\srusso\\\\Downloads\\\\xmrig-deps-v2\\\\msvc2017\\\\libuv\\\\x64\\\\include -DUV_LIBRARY=C:\\Users\\srusso\\Downloads\\xmrig-deps-v2\\msvc2017\\libuv\\x64\\lib\\libuv.lib -DMHD_INCLUDE_DIR=C:\\\\Users\\\\srusso\\\\Downloads\\\\xmrig-deps-v2\\\\msvc2017\\\\libmicrohttpd\\\\x64\\\\include -DMHD_LIBRARY=C:\\Users\\srusso\\Downloads\\xmrig-deps-v2\\msvc2017\\libmicrohttpd\\x64\\lib\\libmicrohttpd.lib",
+      "buildCommandArgs": "-v",
+      "ctestCommandArgs": ""
+    },
+    {
+      "name": "x64-Release",
+      "generator": "Ninja",
+      "configurationType": "RelWithDebInfo",
+      "inheritEnvironments": [ "msvc_x64" ],
+      "buildRoot": "${env.USERPROFILE}\\CMakeBuilds\\${workspaceHash}\\build\\${name}",
+      "installRoot": "${env.USERPROFILE}\\CMakeBuilds\\${workspaceHash}\\install\\${name}",
+      "cmakeCommandArgs": "-DUV_INCLUDE_DIR=C:\\\\Users\\\\srusso\\\\Downloads\\\\xmrig-deps-v2\\\\msvc2017\\\\libuv\\\\x64\\\\include -DUV_LIBRARY=C:\\Users\\srusso\\Downloads\\xmrig-deps-v2\\msvc2017\\libuv\\x64\\lib\\libuv.lib -DMHD_INCLUDE_DIR=C:\\\\Users\\\\srusso\\\\Downloads\\\\xmrig-deps-v2\\\\msvc2017\\\\libmicrohttpd\\\\x64\\\\include -DMHD_LIBRARY=C:\\Users\\srusso\\Downloads\\xmrig-deps-v2\\msvc2017\\libmicrohttpd\\x64\\lib\\libmicrohttpd.lib",
+      "buildCommandArgs": "-v",
+      "ctestCommandArgs": ""
+    }
+  ]
+}

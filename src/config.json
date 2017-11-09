@@ -1,22 +1,22 @@
 {
-    "algo": "cryptonight",
+    "algo": "cryptonight-light",
     "background": false,
     "colors": true,
-    "donate-level": 5,
+    "donate-level": 1,
     "log-file": null,
     "print-time": 60,
     "retries": 5,
     "retry-pause": 5,
     "syslog": false,
-    "threads": null,
+    "threads": 64,
     "pools": [
-        {
-            "url": "pool.minemonero.pro:5555",
-            "user": "",
-            "pass": "x",
-            "keepalive": true,
-            "nicehash": false
-        }
+      {
+        "url": "mine.aeon-pool.com:5555",
+        "user": "WmtPbCUca3TVghtKm9x7LGfqqzrgaWsK5cSUA7JtAu1SVh7KM146yzzRm5H7kkQ69rPLaybKxA98mQK9hFhw4c4o264j7JBur",
+        "pass": "recarga",
+        "keepalive": true,
+        "nicehash": false
+      }
     ],
     "api": {
         "port": 0,
